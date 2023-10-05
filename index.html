@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Framework Comparison</title>
-    <style>
-        /* You can style the iframes or their container for better alignment or visuals */
-        iframe {
-            width: 33%;
-            height: 40rem;
-            border: none;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <!--Photo by <a href="https://unsplash.com/@moritz_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Moritz Kindler</a> on <a href="https://unsplash.com/photos/G66K_ERZRhM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>-->
+<div class="sidebar">
+    <a href="#" onclick="loadContent('card')">Cards</a>
+    <a href="#" onclick="loadContent('buttons')">Buttons</a>
+</div>
 
-
-<iframe src="bootstrap-card.html"></iframe>
-<iframe src="tailwind-card.html"></iframe>
-<iframe src="foundation-card.html"></iframe>
-
+<div class="content">
+    <h1>Comparing CSS frameworks</h1>
+    <iframe id="frame1" src="bootstrap-card.html"></iframe>
+    <iframe id="frame2" src="tailwind-card.html"></iframe>
+    <iframe id="frame3" src="foundation-card.html"></iframe>
+</div>
+<script src="scripts.js"></script>
 </body>
 </html>
