@@ -8,17 +8,27 @@
 </head>
 <body>
 
-<!--Photo by <a href="https://unsplash.com/@moritz_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Moritz Kindler</a> on <a href="https://unsplash.com/photos/G66K_ERZRhM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>-->
+<!--Photo by <a href="https://unsplash.com/@moritz_photography?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">
+Moritz Kindler</a> on <a href="https://unsplash.com/photos/G66K_ERZRhM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>-->
 <div class="sidebar">
     <a href="#" onclick="loadContent('card')">Cards</a>
     <a href="#" onclick="loadContent('buttons')">Buttons</a>
+    <a href="#" onclick="loadContent('grid')">Grid</a>
 </div>
 
 <div class="content">
     <h1>Comparing CSS frameworks</h1>
-    <iframe id="frame1" src="bootstrap/bootstrap-card.html"></iframe>
-    <iframe id="frame2" src="tailwind/tailwind-card.html"></iframe>
-    <iframe id="frame3" src="foundation/foundation-card.html"></iframe>
+    <div class="column-section">
+        <iframe id="columnFrame1" src="bootstrap/bootstrap-card.html"></iframe>
+        <iframe id="columnFrame2" src="tailwind/tailwind-card.html"></iframe>
+        <iframe id="columnFrame3" src="foundation/foundation-card.html"></iframe>
+    </div>
+
+    <div class="row-section">
+        <iframe id="rowFrame1" src="bootstrap/bootstrap-grid.html"></iframe>
+        <iframe id="rowFrame2" src="tailwind/tailwind-grid.html"></iframe>
+        <iframe id="rowFrame3" src="foundation/foundation-grid.html"></iframe>
+    </div>
 </div>
 <script src="scripts.js"></script>
 </body>
