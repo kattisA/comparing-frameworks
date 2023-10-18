@@ -36,19 +36,18 @@ iframe {
     height: 40rem;
 }
 
-
 .column-section iframe {
     width: 30%;
-    height: 31.25rem; /* or adjust as needed */
+    height: 31.25rem;
     display: inline-block;
-    vertical-align: top; /* to align them nicely at the top */
+    vertical-align: top;
 }
 
 .row-section iframe {
-    width: 100%;
-    height: 31.25rem; /* or adjust as needed */
+    width: 95%;
+    height: 15rem;
     display: block;
-    margin-bottom: 1rem; /* some space between them */
+    margin-bottom: 1rem;
 }
 
 .row-section {
