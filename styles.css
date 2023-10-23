@@ -32,13 +32,11 @@ iframe {
     margin: 0.5rem;
     padding: 1rem;
     box-shadow: 0 4px 6px whitesmoke;
-    width: 25%;
-    height: 40rem;
 }
 
 .column-section iframe {
     width: 30%;
-    height: 31.25rem;
+    height: 35rem;
     display: inline-block;
     vertical-align: top;
 }
